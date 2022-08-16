@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @FeignClient(name = "PRICING-SERVICE", url = "http://localhost:8091")
 public interface PricingClient {
-    @RequestMapping(method = RequestMethod.GET, value = "/pricing/")
+    @RequestMapping(method = RequestMethod.POST, value = "/pricing/")
     PricingResponse calculateTicketPrice(@RequestBody PricingRequest pricingRequest);
 }
