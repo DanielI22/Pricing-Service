@@ -12,6 +12,11 @@
     <artifactId>core</artifactId>
     <dependencies>
         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+        </dependency>
+        <dependency>
             <groupId>com.project.pricing</groupId>
             <artifactId>api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
